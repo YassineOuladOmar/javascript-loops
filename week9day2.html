@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="week9day2.js"></script>
+    <link rel="stylesheet" href="week9day2.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <main>
+        <h1>The "For" Loop</h1>
+        <h2>Syntax</h2>
+        <p>
+            for (voorbeeld 1; voorbeeld 2; voorbeeld 3) { <br> // code block to be executed <br> }
+        </p>
+        <h2>Example</h2>
+        <p>for (i = 0; i
+            < 28; i++) { <br>
+                text +="My age is" + i + " "; <br> }
+        </p>
+
+        <h1>The "While" loop</h1>
+        <h2>Syntax</h2>
+        <p>while (condition) {<br> // Wordt uitgevoerd <br> }
+        </p>
+        <h2>Example</h2>
+        <p>var text = "";<br> var i = 0;<br><br> while (i
+            < 23) {<br>
+                text +="My age is" + i; i++; <br> }
+        </p>
+
+
+
+
+        <h1>The "Do/While" Loop</h1>
+        <h2>Syntax</h2>
+        <p>
+            do {<br> // code block to be executed <br> } while (condition);
+        </p>
+        <h2>Example</h2>
+        <p>
+            do { <br> text += "My age is " + i; i++; <br> }
+            <br> while (i
+            < 23); </p>
+
+                <h1>The For/In Loop</h1>
+                <h2>Example</h2>
+                <p>var member = {firstname:"Oussama", lastname:"Asbaa", age:22};<br> var text = "";<br> var a; for (a in member) {<br> text += member[a] + " "; <br> }
+                </p>
+
+
+                <h1>The For/Of Loop</h1>
+                <h2>Example</h2>
+                <p>var chicks = ['Storm', 'Patrick', 'Nathan'];<br> var a;<br> for (a of chicks) {<br> document.write(a + " ");<br> }
+                </p>
+    </main>
+
+
+</body>
+
+</html>

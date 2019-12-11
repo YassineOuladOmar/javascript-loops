@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    color: chartreuse;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: #fff;
+    transform: rotateY(-180deg);
+    transition: 2s;
+}
